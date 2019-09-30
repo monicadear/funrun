@@ -1,0 +1,38 @@
+uuid: 0b043ebf-8a9f-411b-a26f-9009149e2a9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: mark_pledge_as_paid
+label: 'Mark pledge as PAID'
+bundles:
+  - pledge
+entity_type: node
+global: true
+weight: 0
+flag_short: 'Received a receipt? Mark this donation as being PAID'
+flag_long: ''
+flag_message: ''
+unflag_short: Unflag
+unflag_long: ''
+unflag_message: ''
+unflag_denied_text: ''
+flag_type: 'entity:node'
+link_type: field_entry
+flagTypeConfig:
+  show_in_links:
+    full: full
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig:
+  flag_confirmation: 'Are you sure you want to mark this as paid?'
+  unflag_confirmation: 'Unflag this pledge?'
+  flag_create_button: 'Mark as paid'
+  flag_delete_button: 'Remove from being marked as page'
+  form_behavior: modal
+  edit_flagging: 'Please enter details about this pledge'
+  flag_update_button: 'Update flagging'

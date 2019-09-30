@@ -1,0 +1,21 @@
+uuid: 36f24b53-da44-4c09-a000-65157470e53d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'create pledge content'
+  - 'create student content'
+  - 'create wall_post content'
+  - 'flag mark_pledge_as_paid'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'use text format restricted_html'

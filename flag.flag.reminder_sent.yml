@@ -1,0 +1,32 @@
+uuid: ff49bd38-43cc-4a68-80fe-643347eec29a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: reminder_sent
+label: 'Reminder Sent'
+bundles:
+  - pledge
+entity_type: node
+global: true
+weight: 0
+flag_short: 'Sent a first reminder'
+flag_long: ''
+flag_message: ''
+unflag_short: 'Remove first reminder'
+unflag_long: ''
+unflag_message: ''
+unflag_denied_text: ''
+flag_type: 'entity:node'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links:
+    full: full
+    teaser: teaser
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

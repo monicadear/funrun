@@ -1,0 +1,52 @@
+'followup_pledges:page_1':
+  'uid:11':
+    bulk_form:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    from_name: 'Campbell Fun Run Donations'
+    from_mail: admin@campbellschool.org
+    tokens:
+      title_pos_0: title
+      field_your_phone_number_pos_1: field_your_phone_number
+      field_your_email_pos_2: field_your_email
+    to_name: title_pos_0
+    to_mail: field_your_email_pos_2
+    subject: 'Thank you for your pledge'
+    message:
+      value: "<p>Thank you so much for your pledge to your student at Campbell Elementary&nbsp;School.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>This is a confirmation to let you know we've received your pledge.</p>\r\n\r\n<p>Your pledge can be fulfilled using this link:</p>\r\n\r\n<p><a href=\"http://bit.ly/campbellfunrundonate\">http://bit.ly/campbellfunrundonate</a></p>\r\n\r\n<p>Using the following: Pledge&nbsp;[node:nid]&nbsp;</p>\r\n\r\n<p>in the notes.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Thank you so much for your support!</p>\r\n\r\n<p><br />\r\nSincerely,</p>\r\n\r\n<p>Monica Flores for the Campbell Fun Run Team</p>\r\n"
+      format: basic_html
+    priority: '3'
+    receipt: 0
+    headers: ''
+    direct: 1
+    carbon_copy: 1
+    remember: 1
